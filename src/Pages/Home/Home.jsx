@@ -1,9 +1,17 @@
 import React from 'react';
+import Banner from '../../Components/Banner/Banner';
+import AppsCard from '../AppsCard/AppsCard';
+import { useLoaderData } from 'react-router';
+import { CloudHail } from 'lucide-react';
 
 const Home = () => {
+    const data = useLoaderData()
+    console.log(data);
+   
     return (
         <div>
-            <h1>Home</h1>
+            <Banner></Banner>
+            <AppsCard data={data}></AppsCard>
         </div>
     );
 };
