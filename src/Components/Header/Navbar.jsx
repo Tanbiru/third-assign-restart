@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from "/src/assets/logo.png"
 import { FaGithub } from 'react-icons/fa6';
+import { Link } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-    <li className='m-2 font-semibold text-sm'>Home</li>
-    <li className='m-2 font-semibold text-sm'>Apps</li>
+    <Link to='/'><li className='m-2 font-semibold text-sm'>Home</li></Link>
+    <Link to='/apps'><li className='m-2 font-semibold text-sm'>Apps</li></Link>
     <li className='m-2 font-semibold text-sm'>Installation</li>
     
     </>

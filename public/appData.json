@@ -1,362 +1,383 @@
+
 [
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "title": "WhatsApp",
-    "companyName": "Meta",
-    "id": 1,
-    "description": "Free messaging and video calling app used by billions worldwide.",
-    "size": 85,
-    "reviews": 12000000,
-    "ratingAvg": 4.5,
-    "downloads": "5.6B",
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 800000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 7400000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-    "title": "Instagram",
-    "companyName": "Meta",
-    "id": 2,
-    "description": "Share photos, reels and connect with friends.",
-    "size": 95,
-    "reviews": 9000000,
-    "ratingAvg": 4.4,
-    "downloads": "4B",
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 250000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 5150000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_(2017).svg",
-    "title": "YouTube",
-    "companyName": "Google",
-    "id": 3,
-    "description": "Watch and upload videos from creators around the world.",
-    "size": 110,
-    "reviews": 15000000,
-    "ratingAvg": 4.6,
-    "downloads": "10B",
-    "ratings": [
-      { "name": "1 star", "count": 600000 },
-      { "name": "2 star", "count": 350000 },
-      { "name": "3 star", "count": 900000 },
-      { "name": "4 star", "count": 4000000 },
-      { "name": "5 star", "count": 9150000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_(2020).svg",
-    "title": "Gmail",
-    "companyName": "Google",
-    "id": 4,
-    "description": "Secure email service with smart inbox organization.",
-    "size": 75,
-    "reviews": 5000000,
-    "ratingAvg": 4.3,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 1800000 },
-      { "name": "5 star", "count": 2350000 }
-    ]
-  },
-  {
-    "image": "https://www.google.com/maps/about/images/icons/maps_512dp.png",
-    "title": "Google Maps",
-    "companyName": "Google",
-    "id": 5,
-    "description": "Navigation and maps with real-time traffic updates.",
-    "size": 120,
-    "reviews": 6000000,
-    "ratingAvg": 4.4,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 250000 },
-      { "name": "2 star", "count": 180000 },
-      { "name": "3 star", "count": 600000 },
-      { "name": "4 star", "count": 2000000 },
-      { "name": "5 star", "count": 2970000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    "title": "Spotify",
-    "companyName": "Spotify Ltd.",
-    "id": 6,
-    "description": "Stream millions of songs and podcasts.",
-    "size": 90,
-    "reviews": 4500000,
-    "ratingAvg": 4.5,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 2330000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOOES4Mx8YODk2nRaTX45GY1cESiMKtmQ3zg&s",
-    "title": "Facebook",
-    "companyName": "Meta",
-    "id": 7,
-    "description": "Connect with friends, share posts and watch videos.",
-    "size": 105,
-    "reviews": 8000000,
-    "ratingAvg": 4.2,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 1000000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 3600000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
-    "title": "TikTok",
-    "companyName": "ByteDance",
-    "id": 8,
-    "description": "Short video platform with creative editing tools.",
-    "size": 115,
-    "reviews": 10000000,
-    "ratingAvg": 4.4,
-    "downloads": "3B",
-    "ratings": [
-      { "name": "1 star", "count": 600000 },
-      { "name": "2 star", "count": 350000 },
-      { "name": "3 star", "count": 900000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 5150000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q",
-    "title": "Telegram",
-    "companyName": "Telegram FZ LLC",
-    "id": 9,
-    "description": "Fast and secure cloud-based messaging app.",
-    "size": 70,
-    "reviews": 4000000,
-    "ratingAvg": 4.6,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 90000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 1200000 },
-      { "name": "5 star", "count": 2310000 }
-    ]
-  },
-  {
-    "image": "https://static.vecteezy.com/system/resources/previews/017/396/814/non_2x/netflix-mobile-application-logo-free-png.png",
-    "title": "Netflix",
-    "companyName": "Netflix Inc.",
-    "id": 10,
-    "description": "Watch movies, series and original shows online.",
-    "size": 130,
-    "reviews": 3500000,
-    "ratingAvg": 4.3,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 1200000 },
-      { "name": "5 star", "count": 1550000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKihR62x9SIakttt8gY95hkTQAx9YeHzRBIw&s",
-    "title": "Play Store",
-    "companyName": "Google",
-    "id": 11,
-    "description": "Download apps, games and digital content.",
-    "size": 40,
-    "reviews": 7000000,
-    "ratingAvg": 4.4,
-    "downloads": "10B",
-    "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 3300000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/t-juVwXA8lDAk8uQ2L6d6K83jpgQoqmK1icB_l9yvhIAQ2QT_1XbRwg5IpY08906qEw",
-    "title": "Google Drive",
-    "companyName": "Google",
-    "id": 12,
-    "description": "Cloud storage to save and share files securely.",
-    "size": 85,
-    "reviews": 3800000,
-    "ratingAvg": 4.5,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 90000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 1300000 },
-      { "name": "5 star", "count": 1990000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-    "title": "Figma",
-    "companyName": "Figma Inc.",
-    "id": 13,
-    "description": "Collaborative interface design tool.",
-    "size": 95,
-    "reviews": 900000,
-    "ratingAvg": 4.6,
-    "downloads": "100M",
-    "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 15000 },
-      { "name": "3 star", "count": 60000 },
-      { "name": "4 star", "count": 300000 },
-      { "name": "5 star", "count": 505000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
-    "title": "Pinterest",
-    "companyName": "Pinterest Inc.",
-    "id": 14,
-    "description": "Discover creative ideas and inspiration.",
-    "size": 80,
-    "reviews": 2000000,
-    "ratingAvg": 4.4,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 90000 },
-      { "name": "2 star", "count": 70000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 800000 },
-      { "name": "5 star", "count": 840000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
-    "title": "GitHub",
-    "companyName": "Microsoft",
-    "id": 15,
-    "description": "Manage and collaborate on software development projects.",
-    "size": 60,
-    "reviews": 600000,
-    "ratingAvg": 4.7,
-    "downloads": "50M",
-    "ratings": [
-      { "name": "1 star", "count": 10000 },
-      { "name": "2 star", "count": 8000 },
-      { "name": "3 star", "count": 30000 },
-      { "name": "4 star", "count": 150000 },
-      { "name": "5 star", "count": 402000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBQbNiqqZaOQ7ISQi9agBPmkChmcz4PKEbQQ&s",
-    "title": "Canva",
-    "companyName": "Canva Pty Ltd",
-    "id": 16,
-    "description": "Create stunning graphics and social media designs.",
-    "size": 85,
-    "reviews": 3200000,
-    "ratingAvg": 4.6,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 60000 },
-      { "name": "3 star", "count": 250000 },
-      { "name": "4 star", "count": 1200000 },
-      { "name": "5 star", "count": 1620000 }
-    ]
-  },
-  {
-    "image": "https://w7.pngwing.com/pngs/351/29/png-transparent-google-keep-g-suite-wear-os-google-rectangle-orange-logo.png",
-    "title": "Google Keep",
-    "companyName": "Google",
-    "id": 17,
-    "description": "Take quick notes and set reminders.",
-    "size": 30,
-    "reviews": 1400000,
-    "ratingAvg": 4.5,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 35000 },
-      { "name": "3 star", "count": 120000 },
-      { "name": "4 star", "count": 500000 },
-      { "name": "5 star", "count": 705000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGNh5mEIxI-gT8xlKEqXKt75AejFCMlPj2Ig&s",
-    "title": "Snapchat",
-    "companyName": "Snap Inc.",
-    "id": 18,
-    "description": "Share snaps and stories with friends.",
-    "size": 95,
-    "reviews": 2500000,
-    "ratingAvg": 4.2,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 350000 },
-      { "name": "4 star", "count": 800000 },
-      { "name": "5 star", "count": 1000000 }
-    ]
-  },
-  {
-    "image": "https://img.freepik.com/premium-vector/blue-circle-with-person-circle-that-says-center_1017505-1811.jpg?semt=ais_hybrid&w=740&q=80",
-    "title": "LinkedIn",
-    "companyName": "Microsoft",
-    "id": 19,
-    "description": "Professional networking and job search platform.",
-    "size": 80,
-    "reviews": 1800000,
-    "ratingAvg": 4.4,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 60000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 700000 },
-      { "name": "5 star", "count": 760000 }
-    ]
-  },
-  {
-    "image": "https://img.freepik.com/premium-vector/vector-discord-social-media-logo_534308-21667.jpg?semt=ais_hybrid&w=740&q=80",
-    "title": "Discord",
-    "companyName": "Discord Inc.",
-    "id": 20,
-    "description": "Chat, voice and video communication for communities.",
-    "size": 100,
-    "reviews": 2200000,
-    "ratingAvg": 4.6,
-    "downloads": "500M",
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 50000 },
-      { "name": "3 star", "count": 180000 },
-      { "name": "4 star", "count": 700000 },
-      { "name": "5 star", "count": 1210000 }
-    ]
-  }
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+"title":"WhatsApp",
+"companyName":"Meta",
+"id":1,
+"description":"WhatsApp is one of the most popular messaging apps in the world. It allows users to send text messages, voice notes, photos, videos, and documents instantly through an internet connection. People can also make voice and video calls with high quality from anywhere. WhatsApp supports group chats where friends, family members, or teams can communicate together. The app also includes status updates, location sharing, and media sharing features. One of the most important features is end to end encryption, which keeps conversations private and secure. Because of its simple design and reliable performance, WhatsApp has become an essential communication tool for billions of users around the world.",
+"size":85,
+"reviews":12000000,
+"ratingAvg":4.5,
+"downloads":"5.6B",
+"ratings":[
+{"name":"1 star","count":500000},
+{"name":"2 star","count":300000},
+{"name":"3 star","count":800000},
+{"name":"4 star","count":3000000},
+{"name":"5 star","count":7400000}
 ]
+},
+
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+"title":"Instagram",
+"companyName":"Meta",
+"id":2,
+"description":"Instagram is a popular social media platform focused on sharing photos and videos. Users can upload images to their profile, post temporary stories, and create short videos known as reels. The app allows people to follow friends, celebrities, and brands to see their latest updates in a personalized feed. Instagram also includes messaging features so users can chat directly with each other. Creative tools such as filters, stickers, and editing options help users make visually appealing content. Businesses and influencers use Instagram to promote products and connect with their audience. Because of its strong focus on visual content and engagement, Instagram has become one of the most influential social networking apps today.",
+"size":95,
+"reviews":9000000,
+"ratingAvg":4.4,
+"downloads":"4B",
+"ratings":[
+{"name":"1 star","count":400000},
+{"name":"2 star","count":250000},
+{"name":"3 star","count":700000},
+{"name":"4 star","count":2500000},
+{"name":"5 star","count":5150000}
+]
+},
+
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_(2017).svg",
+"title":"YouTube",
+"companyName":"Google",
+"id":3,
+"description":"YouTube is the largest online video platform where people can watch, upload, and share videos on almost any topic. From entertainment and music to education and tutorials, the platform offers content for everyone. Users can subscribe to channels, like videos, comment, and create playlists to organize their favorite content. Content creators can also earn money through advertisements and sponsorships. YouTube supports live streaming, high definition video playback, and personalized recommendations based on viewing history. Many people use YouTube to learn new skills, follow trends, and discover new creators. With billions of users worldwide, it has become a major platform for digital entertainment and learning.",
+"size":110,
+"reviews":15000000,
+"ratingAvg":4.6,
+"downloads":"10B",
+"ratings":[
+{"name":"1 star","count":600000},
+{"name":"2 star","count":350000},
+{"name":"3 star","count":900000},
+{"name":"4 star","count":4000000},
+{"name":"5 star","count":9150000}
+]
+},
+
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_(2020).svg",
+"title":"Gmail",
+"companyName":"Google",
+"id":4,
+"description":"Gmail is a widely used email service developed by Google that allows users to send and receive emails securely. It provides a clean inbox system that automatically organizes messages into categories such as primary, social, and promotions. Gmail also includes strong spam protection and powerful search features that help users quickly find old emails. People can attach documents, images, and files directly inside messages. The service integrates smoothly with other Google products like Google Drive, Google Meet, and Google Calendar. Because of its reliability, security features, and large storage capacity, Gmail has become one of the most trusted email services used by individuals and professionals worldwide.",
+"size":75,
+"reviews":5000000,
+"ratingAvg":4.3,
+"downloads":"5B",
+"ratings":[
+{"name":"1 star","count":200000},
+{"name":"2 star","count":150000},
+{"name":"3 star","count":500000},
+{"name":"4 star","count":1800000},
+{"name":"5 star","count":2350000}
+]
+},
+
+{
+"image":"https://www.google.com/maps/about/images/icons/maps_512dp.png",
+"title":"Google Maps",
+"companyName":"Google",
+"id":5,
+"description":"Google Maps is a navigation and mapping service that helps users find places and directions anywhere in the world. People can search for restaurants, shops, hospitals, and tourist locations with detailed information such as reviews and photos. The app provides step by step directions for driving, walking, cycling, and public transportation. Real time traffic updates help users avoid congestion and choose faster routes. Google Maps also offers street view and satellite images that allow users to explore locations virtually. Whether traveling to a new city or finding a nearby place, Google Maps has become an essential tool for navigation and travel planning.",
+"size":120,
+"reviews":6000000,
+"ratingAvg":4.4,
+"downloads":"5B",
+"ratings":[
+{"name":"1 star","count":250000},
+{"name":"2 star","count":180000},
+{"name":"3 star","count":600000},
+{"name":"4 star","count":2000000},
+{"name":"5 star","count":2970000}
+]
+},
+
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+"title":"Spotify",
+"companyName":"Spotify Ltd.",
+"id":6,
+"description":"Spotify is a popular music streaming platform that allows users to listen to millions of songs and podcasts from around the world. The app provides personalized playlists based on listening habits and favorite artists. Users can search for albums, songs, or genres and discover new music easily. Spotify also offers offline listening and higher audio quality for premium subscribers. Podcast content and exclusive shows are also available on the platform. Because of its vast music library and user friendly interface, Spotify has become one of the favorite apps for music lovers who want instant access to entertainment.",
+"size":90,
+"reviews":4500000,
+"ratingAvg":4.5,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":150000},
+{"name":"2 star","count":120000},
+{"name":"3 star","count":400000},
+{"name":"4 star","count":1500000},
+{"name":"5 star","count":2330000}
+]
+},
+
+{
+"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOOES4Mx8YODk2nRaTX45GY1cESiMKtmQ3zg&s",
+"title":"Facebook",
+"companyName":"Meta",
+"id":7,
+"description":"Facebook is one of the largest social networking platforms that allows people to connect with friends, family, and communities online. Users can share posts, photos, videos, and updates on their timeline. The platform also includes messaging, live streaming, and group communities where people discuss common interests. Businesses use Facebook pages to promote products and communicate with customers. The platform also provides marketplace features for buying and selling items locally. With billions of active users worldwide, Facebook remains a powerful platform for communication, entertainment, and social interaction.",
+"size":105,
+"reviews":8000000,
+"ratingAvg":4.2,
+"downloads":"5B",
+"ratings":[
+{"name":"1 star","count":500000},
+{"name":"2 star","count":400000},
+{"name":"3 star","count":1000000},
+{"name":"4 star","count":2500000},
+{"name":"5 star","count":3600000}
+]
+},
+
+{
+"image":"https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+"title":"TikTok",
+"companyName":"ByteDance",
+"id":8,
+"description":"TikTok is a short video platform where users create and share entertaining videos with music, effects, and creative editing tools. The app allows people to watch endless content through its personalized recommendation system. Users can follow creators, participate in trends, and create viral challenges. TikTok also offers live streaming and messaging features. Because of its powerful algorithm and creative tools, many creators have gained worldwide popularity through the platform. TikTok has quickly become one of the most influential social media platforms for entertainment and digital creativity.",
+"size":115,
+"reviews":10000000,
+"ratingAvg":4.4,
+"downloads":"3B",
+"ratings":[
+{"name":"1 star","count":600000},
+{"name":"2 star","count":350000},
+{"name":"3 star","count":900000},
+{"name":"4 star","count":3000000},
+{"name":"5 star","count":5150000}
+]
+},
+
+{
+"image":"https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q",
+"title":"Telegram",
+"companyName":"Telegram FZ LLC",
+"id":9,
+"description":"Telegram is a fast and secure messaging application designed for private and group communication. Users can send messages, photos, videos, files, and voice messages instantly through cloud based technology. Telegram supports large group chats and channels where thousands of members can join and share information. The app also includes bots, automation features, and strong encryption for privacy. Because of its speed, security, and powerful group features, Telegram is widely used by communities, businesses, and online groups.",
+"size":70,
+"reviews":4000000,
+"ratingAvg":4.6,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":100000},
+{"name":"2 star","count":90000},
+{"name":"3 star","count":300000},
+{"name":"4 star","count":1200000},
+{"name":"5 star","count":2310000}
+]
+},
+
+{
+"image":"https://static.vecteezy.com/system/resources/previews/017/396/814/non_2x/netflix-mobile-application-logo-free-png.png",
+"title":"Netflix",
+"companyName":"Netflix Inc.",
+"id":10,
+"description":"Netflix is a streaming platform that allows users to watch movies, television shows, and original series online. It provides thousands of titles across different genres such as drama, action, comedy, and documentaries. Users can watch content on smartphones, televisions, tablets, and computers with an internet connection. Netflix also produces exclusive original content that has become popular worldwide. With personalized recommendations and high quality streaming, Netflix has become one of the leading entertainment platforms for watching digital content.",
+"size":130,
+"reviews":3500000,
+"ratingAvg":4.3,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":200000},
+{"name":"2 star","count":150000},
+{"name":"3 star","count":400000},
+{"name":"4 star","count":1200000},
+{"name":"5 star","count":1550000}
+]
+},
+
+{
+"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKihR62x9SIakttt8gY95hkTQAx9YeHzRBIw&s",
+"title":"Play Store",
+"companyName":"Google",
+"id":11,
+"description":"Google Play Store is the official digital marketplace for Android devices. It allows users to download and install millions of apps, games, books, and other digital content. Developers publish their applications on the Play Store so users can easily access them worldwide. The platform provides ratings, reviews, and recommendations that help users choose the best apps. Security checks and updates ensure that apps remain safe and reliable. Because of its massive library of applications and easy interface, Play Store has become the main source for discovering and installing Android apps.",
+"size":40,
+"reviews":7000000,
+"ratingAvg":4.4,
+"downloads":"10B",
+"ratings":[
+{"name":"1 star","count":300000},
+{"name":"2 star","count":200000},
+{"name":"3 star","count":700000},
+{"name":"4 star","count":2500000},
+{"name":"5 star","count":3300000}
+]
+},
+
+{
+"image":"https://play-lh.googleusercontent.com/t-juVwXA8lDAk8uQ2L6d6K83jpgQoqmK1icB_l9yvhIAQ2QT_1XbRwg5IpY08906qEw",
+"title":"Google Drive",
+"companyName":"Google",
+"id":12,
+"description":"Google Drive is a cloud storage service that allows users to store files safely online and access them from any device. People can upload documents, photos, videos, and other files to the cloud and share them easily with others. Google Drive integrates with Google Docs, Sheets, and Slides so users can create and edit files directly in the browser. Collaboration tools allow multiple users to work on the same document simultaneously. Because of its security and accessibility, Google Drive has become a widely used platform for personal and professional file storage.",
+"size":85,
+"reviews":3800000,
+"ratingAvg":4.5,
+"downloads":"5B",
+"ratings":[
+{"name":"1 star","count":120000},
+{"name":"2 star","count":90000},
+{"name":"3 star","count":300000},
+{"name":"4 star","count":1300000},
+{"name":"5 star","count":1990000}
+]
+},
+
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+"title":"Figma",
+"companyName":"Figma Inc.",
+"id":13,
+"description":"Figma is a modern design tool used by UI and UX designers to create digital interfaces. It allows teams to design websites, mobile apps, and prototypes directly in the browser. Real time collaboration makes it possible for multiple designers and developers to work together on the same project. Figma provides components, design systems, and prototyping tools that help teams build professional user interfaces efficiently. Because of its flexibility and teamwork features, Figma has become one of the most popular design platforms in the tech industry.",
+"size":95,
+"reviews":900000,
+"ratingAvg":4.6,
+"downloads":"100M",
+"ratings":[
+{"name":"1 star","count":20000},
+{"name":"2 star","count":15000},
+{"name":"3 star","count":60000},
+{"name":"4 star","count":300000},
+{"name":"5 star","count":505000}
+]
+},
+
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+"title":"Pinterest",
+"companyName":"Pinterest Inc.",
+"id":14,
+"description":"Pinterest is a visual discovery platform where users can find creative ideas for fashion, home design, cooking, travel, and many other topics. People can save images known as pins into boards to organize their favorite inspirations. The platform is widely used by creators and businesses to share design ideas and product inspiration. With millions of images and creative resources, Pinterest helps users discover new ideas and plan projects easily.",
+"size":80,
+"reviews":2000000,
+"ratingAvg":4.4,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":90000},
+{"name":"2 star","count":70000},
+{"name":"3 star","count":200000},
+{"name":"4 star","count":800000},
+{"name":"5 star","count":840000}
+]
+},
+
+{
+"image":"https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+"title":"GitHub",
+"companyName":"Microsoft",
+"id":15,
+"description":"GitHub is a development platform where programmers store and manage their code using the Git version control system. Developers can collaborate on projects, track code changes, and contribute to open source software. GitHub provides tools such as pull requests, issue tracking, and project management features that help teams work efficiently. Because of its powerful collaboration system, GitHub has become the largest community for software developers worldwide.",
+"size":60,
+"reviews":600000,
+"ratingAvg":4.7,
+"downloads":"50M",
+"ratings":[
+{"name":"1 star","count":10000},
+{"name":"2 star","count":8000},
+{"name":"3 star","count":30000},
+{"name":"4 star","count":150000},
+{"name":"5 star","count":402000}
+]
+},
+
+{
+"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBQbNiqqZaOQ7ISQi9agBPmkChmcz4PKEbQQ&s",
+"title":"Canva",
+"companyName":"Canva Pty Ltd",
+"id":16,
+"description":"Canva is an easy to use graphic design platform that allows users to create posters, presentations, and social media graphics. The app offers thousands of templates, images, icons, and fonts that help users design professional looking visuals quickly. Its drag and drop interface makes it simple even for beginners who have no design experience. Canva is widely used by students, businesses, and content creators to produce attractive designs.",
+"size":85,
+"reviews":3200000,
+"ratingAvg":4.6,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":70000},
+{"name":"2 star","count":60000},
+{"name":"3 star","count":250000},
+{"name":"4 star","count":1200000},
+{"name":"5 star","count":1620000}
+]
+},
+
+{
+"image":"https://w7.pngwing.com/pngs/351/29/png-transparent-google-keep-g-suite-wear-os-google-rectangle-orange-logo.png",
+"title":"Google Keep",
+"companyName":"Google",
+"id":17,
+"description":"Google Keep is a simple note taking app that helps users quickly capture ideas, reminders, and to do lists. Users can create text notes, voice notes, and checklists. Notes can be organized with labels and colors so important information is easy to find. The app syncs with the Google account so notes can be accessed from phones, tablets, and computers. It is a lightweight productivity tool for everyday tasks.",
+"size":30,
+"reviews":1400000,
+"ratingAvg":4.5,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":40000},
+{"name":"2 star","count":35000},
+{"name":"3 star","count":120000},
+{"name":"4 star","count":500000},
+{"name":"5 star","count":705000}
+]
+},
+
+{
+"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGNh5mEIxI-gT8xlKEqXKt75AejFCMlPj2Ig&s",
+"title":"Snapchat",
+"companyName":"Snap Inc.",
+"id":18,
+"description":"Snapchat is a multimedia messaging app known for disappearing messages and creative camera filters. Users can send photos and videos called snaps to friends, which disappear after being viewed. The app also offers stories that stay visible for twenty four hours. Fun augmented reality lenses and editing tools make communication entertaining. Many young users enjoy Snapchat for sharing daily moments with friends.",
+"size":95,
+"reviews":2500000,
+"ratingAvg":4.2,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":200000},
+{"name":"2 star","count":150000},
+{"name":"3 star","count":350000},
+{"name":"4 star","count":800000},
+{"name":"5 star","count":1000000}
+]
+},
+
+{
+"image":"https://img.freepik.com/premium-vector/blue-circle-with-person-circle-that-says-center_1017505-1811.jpg?semt=ais_hybrid&w=740&q=80",
+"title":"LinkedIn",
+"companyName":"Microsoft",
+"id":19,
+"description":"LinkedIn is a professional networking platform where people connect with colleagues, companies, and recruiters. Users can build professional profiles that showcase their experience, education, and skills. The platform is widely used for job searching, recruitment, and career development. Companies also share updates and job opportunities. Because of its focus on professional growth, LinkedIn has become one of the most important platforms for career networking.",
+"size":80,
+"reviews":1800000,
+"ratingAvg":4.4,
+"downloads":"1B",
+"ratings":[
+{"name":"1 star","count":80000},
+{"name":"2 star","count":60000},
+{"name":"3 star","count":200000},
+{"name":"4 star","count":700000},
+{"name":"5 star","count":760000}
+]
+},
+
+{
+"image":"https://img.freepik.com/premium-vector/vector-discord-social-media-logo_534308-21667.jpg?semt=ais_hybrid&w=740&q=80",
+"title":"Discord",
+"companyName":"Discord Inc.",
+"id":20,
+"description":"Discord is a communication platform designed for communities and online groups. Users can create servers where members communicate through text channels, voice chat, and video calls. The platform is especially popular among gaming communities but is also used by study groups and online creators. Discord supports bots, moderation tools, and live streaming features. Because of its flexible community tools, Discord has become a powerful platform for group communication.",
+"size":100,
+"reviews":2200000,
+"ratingAvg":4.6,
+"downloads":"500M",
+"ratings":[
+{"name":"1 star","count":60000},
+{"name":"2 star","count":50000},
+{"name":"3 star","count":180000},
+{"name":"4 star","count":700000},
+{"name":"5 star","count":1210000}
+]
+}
+]
+
