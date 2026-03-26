@@ -3,6 +3,7 @@ import downloadImage from '/src/assets/icon-d.png'
 import ratingImage from '/src/assets/icon-r.png'
 import reviewImage from '/src/assets/icon-review.png'
 import { useLoaderData, useParams } from 'react-router';
+import { addToStoredDB } from '../../utility/addToDB';
 
 const AppDetails = () => {
     const {id} =useParams();
@@ -11,6 +12,13 @@ const AppDetails = () => {
     const singleApp = data.find(app => app.id === appId);
     
    const { title, image, companyName, downloads, ratingAvg,reviews, size, description} = singleApp || {};
+
+
+   const handleDownload = id => {
+
+    addToStoredDB(id)
+
+   }
    
 
     return (
@@ -47,7 +55,7 @@ const AppDetails = () => {
                     </div>
 
                 </div>
-                <button className="btn btn-wide mt-10 bg-[#00D390] text-[#FFFFFF] mb-10">Install Now ({size} MB)</button>
+                <button onClick={() =>handleDownload(id)} className="btn btn-wide mt-10 bg-[#00D390] text-[#FFFFFF] mb-10">Install Now ({size} MB)</button>
 
 
             </div>
