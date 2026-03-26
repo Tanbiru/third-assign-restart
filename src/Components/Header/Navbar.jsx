@@ -1,15 +1,31 @@
 import React from 'react';
 import logo from "/src/assets/logo.png"
 import { FaGithub } from 'react-icons/fa6';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-    <Link to='/'><li className='m-2 font-semibold text-sm'>Home</li></Link>
-    <Link to='/apps'><li className='m-2 font-semibold text-sm'>Apps</li></Link>
-    <Link to='installation'><li className='m-2 font-semibold text-sm'>Installation</li></Link>
-    
-    </>
+    <NavLink 
+        to='/' 
+        className={({ isActive }) => isActive ? 'm-2 font-semibold text-[#632EE3] text-sm border-b-2 border-[#632EE3]' : 'm-2 font-semibold text-sm'}
+    >
+        Home
+    </NavLink>
+
+    <NavLink 
+        to='/apps' 
+        className={({ isActive }) => isActive ? 'm-2 font-semibold text-[#632EE3] text-sm border-b-2 border-[#632EE3]' : 'm-2 font-semibold text-sm'}
+    >
+        Apps
+    </NavLink>
+
+    <NavLink 
+        to='/installation' 
+        className={({ isActive }) => isActive ? 'm-2 font-semibold text-[#632EE3] text-sm border-b-2 border-[#632EE3]' : 'm-2 font-semibold text-sm'}
+    >
+        Installation
+    </NavLink>
+</>;
     return (
         <div className='w-10/12 mx-auto'>
             <div className="navbar">
@@ -25,6 +41,7 @@ const Navbar = () => {
       </ul>
     </div>
     
+       <Link to='/'>
        <a className="btn btn-ghost flex items-center gap-2 normal-case px-2 md:px-4">
     <img 
         className="w-8 h-8 md:w-10 md:h-10 object-contain" 
@@ -35,6 +52,7 @@ const Navbar = () => {
         HERO.IO
     </span>
 </a>
+       </Link>
     
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -43,7 +61,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-[#FFFFFF]"><FaGithub></FaGithub> Contribute</a>
+    <a href='https://github.com/Tanbiru' className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-[#FFFFFF]"><FaGithub></FaGithub> Contribute</a>
   </div>
 </div>
         </div>

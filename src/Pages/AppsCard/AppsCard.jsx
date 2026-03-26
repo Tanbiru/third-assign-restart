@@ -1,20 +1,41 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import AppCard from '../AppCard/AppCard';
 
-const AppsCard = ({data}) => {
+const AppsCard = ({ data, showButton = true }) => {
+
+    const [showAll, setShowAll] = useState(false);
+
+    const displayedData = showButton
+        ? (showAll ? data : data.slice(0, 8))
+        : data; 
 
     return (
         <div className='mt-20 w-10/12 mx-auto'>
-            <h1 className='text-5xl text-center text-[#001931] font-bold'>Trending Apps</h1>
-            <p className='text-center mt-4 text-[#627382] text-lg mb-5'>Explore All Trending Apps on the Market developed by us</p>
 
             <Suspense fallback={<span>Loading....</span>}>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
-            {
-            data.map((singleApp)=> <AppCard key={singleApp.id} singleApp={singleApp}></AppCard>)
-        }
-        </div>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+                    {
+                        displayedData.map((singleApp) => (
+                            <AppCard key={singleApp.id} singleApp={singleApp} />
+                        ))
+                    }
+                </div>
             </Suspense>
+
+           
+            {
+                showButton && (
+                    <div className='flex justify-center'>
+                        <button
+                            onClick={() => setShowAll(!showAll)}
+                            className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white btn mt-5'
+                        >
+                            {showAll ? "Show Less" : "Show All"}
+                        </button>
+                    </div>
+                )
+            }
+
         </div>
     );
 };

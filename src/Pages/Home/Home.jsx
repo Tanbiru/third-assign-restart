@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <AppsCard data={data}></AppsCard>
+            <AppsCard data={data} showButton={true}></AppsCard>
         </div>
     );
 };

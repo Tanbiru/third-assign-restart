@@ -1,30 +1,32 @@
 const getStoredApp = () => {
-
-    const storedAppSTR = localStorage.getItem("appList")
-
+    const storedAppSTR = localStorage.getItem("appList");
     if (storedAppSTR) {
-        const storedAppData = JSON.parse(storedAppSTR)
-        return storedAppData
+       
+        return JSON.parse(storedAppSTR).map(id => parseInt(id));
     }
-    else {
-        return [];
-    }
+    return [];
 }
 
-const addToStoredDB = (id) => {
 
+
+const addToStoredDB = (id) => {
+    
     const storedAppData = getStoredApp();
 
     if (storedAppData.includes(id)) {
-        console.log("hello");
-        alert("Already Downloaded")
-    }
-    else{
+        alert("Already Downloaded");
+        return false; 
+    } else {
         storedAppData.push(id);
-        const data = JSON.stringify(storedAppData);
-        localStorage.setItem("appList",data)
-
+        localStorage.setItem("appList", JSON.stringify(storedAppData));
+        return true; 
     }
 }
 
-export { addToStoredDB, getStoredApp }
+const removeFromStoredDB = (id) => {
+    const storedAppData = getStoredApp();
+    const updatedData = storedAppData.filter(appId => appId !== id);
+    localStorage.setItem("appList", JSON.stringify(updatedData));
+}
+
+export { addToStoredDB, getStoredApp, removeFromStoredDB };
